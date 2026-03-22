@@ -20,9 +20,14 @@ const Resume = () => {
               <li>✨ Machine Learning Experience</li>
               <li>✨ Rigorous DSA Training</li>
             </ul>
-            <a href="/resume.pdf" download="Rizwan_CV.pdf" className="btn-primary flex-btn" style={{margin: '0 auto', display: 'inline-flex', padding: '1rem 2rem', fontSize: '1.1rem'}}>
-              <FaFileDownload className="btn-icon" /> Download Resume
-            </a>
+            <a
+  href="/certificates/rizwan cv3.pdf"
+  download="Rizwan_CV.pdf"
+  className="btn-primary flex-btn"
+  style={{margin: '0 auto', display: 'inline-flex', padding: '1rem 2rem', fontSize: '1.1rem'}}
+>
+  <FaFileDownload className="btn-icon" /> Download Resume
+</a>
           </div>
 
           <div className="achievements-card" style={{padding: '0', background: 'transparent', border: 'none'}}>
