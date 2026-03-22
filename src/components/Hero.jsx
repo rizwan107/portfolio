@@ -7,37 +7,71 @@ const Hero = () => {
     <section id="hero" className="hero-section">
       <div className="hero-content flex-animate">
         
+        {/* PROFILE IMAGE */}
         <div className="hero-image-wrapper filter-animate">
           <div className="hero-image-container">
-            <img src="/profile.jpg" alt="Rizwan Mohammed" className="hero-profile-pic" />
+            <img
+              src="/Screenshot 2023-12-04 233116.png"
+              alt="Rizwan Mohammed"
+              className="hero-profile-pic"
+            />
           </div>
         </div>
 
         <div className="status-badge fade-animate">
           <span className="status-dot"></span>
-          <span className="status-text">Available for Opportunities</span>
+          <span className="status-text">
+            Available for Opportunities
+          </span>
         </div>
 
         <h1 className="hero-name-split slide-up-animate">
           Rizwan Mohammed
         </h1>
         
-        <h2 className="hero-subtitle slide-up-animate delay-1" style={{fontSize: '1.2rem', marginTop: '0.8rem'}}>
+        <h2
+          className="hero-subtitle slide-up-animate delay-1"
+          style={{ fontSize: '1.2rem', marginTop: '0.8rem' }}
+        >
           Using Machine Learning and Data Science to create meaningful solutions from data.
         </h2>
 
         <div className="hero-buttons slide-up-animate delay-3">
-          <button className="btn-clone btn-view-resume">
+
+          {/* VIEW RESUME */}
+          <button
+            className="btn-clone btn-view-resume"
+            onClick={() =>
+              window.open(
+                "/certificates/rizwan cv3.pdf",
+                "_blank"
+              )
+            }
+          >
             <FaFileAlt className="btn-icon-clone" /> View Resume
           </button>
 
-         <a href="/certificates/rizwan cv3.pdf" download="Rizwan_CV.pdf" className="btn-clone btn-download-resume">
+          {/* DOWNLOAD RESUME */}
+          <a
+            href="/certificates/rizwan cv3.pdf"
+            download="Rizwan_CV.pdf"
+            className="btn-clone btn-download-resume"
+          >
             <FaDownload className="btn-icon-clone" /> Download Resume
           </a>
 
-          <button className="btn-clone btn-contact-me" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>
-             <FaEnvelope className="btn-icon-clone" /> Contact Me
+          {/* CONTACT */}
+          <button
+            className="btn-clone btn-contact-me"
+            onClick={() =>
+              document
+                .getElementById('contact')
+                .scrollIntoView({ behavior: 'smooth' })
+            }
+          >
+            <FaEnvelope className="btn-icon-clone" /> Contact Me
           </button>
+
         </div>
 
       </div>
