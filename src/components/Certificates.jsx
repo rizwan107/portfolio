@@ -6,17 +6,52 @@ const Certificates = () => {
 
   // Exact mapping to available files in /public/certificates/
   const certificates = [
-    { id: 1, title: "🏆 Build Generative AI", org: "Infosys", desc: "Completed training on building large language models.", file: "/certificates/infosys-gen-ai.pdf", tags: [] },
-    { id: 2, title: "🏆 Computational Theory", org: "Infosys", desc: "Comprehensive course on algorithms and automata.", file: "/certificates/infosys-comp-theory.pdf", tags: [] },
-    { id: 3, title: "🏆 Cloud Computing", org: "NPTEL", desc: "Covered fundamentals and architectures of cloud computing.", file: "/certificates/Cloud Computing (1).pdf", tags: ["NPTEL Certification"] },
-    { id: 4, title: "🏆 ChatGPT Prompt Engineering", org: "Infosys", desc: "Advanced techniques for interacting with LLMs.", file: "/certificates/ChatGPT PROMPT certificTE.pdf", tags: [] },
-    { id: 5, title: "🏆 The Bits and Bytes of Computer Networking", org: "Google", desc: "Completed comprehensive networking concepts.", file: "/certificates/Coursera HMNJPLU8BR9I (1).pdf", tags: [] },
-    { id: 6, title: "🏆 Packet Switching Networking", org: "Coursera", desc: "Deep dive into network traffic routing.", file: "/certificates/coursera-packet-switching.pdf", tags: [] },
-    { id: 7, title: "🏆 TCP/IP Networking", org: "Google", desc: "Advanced exploration of the TCP/IP suite.", file: "/certificates/Coursera SWO76ZWAVCIA (1).pdf", tags: [] },
-    { id: 8, title: "🏆 Peer-to-Peer Protocols", org: "Google", desc: "Studied decentralized communication models.", file: "/certificates/Coursera 033AFEGXRWCF.pdf", tags: [] },
-    { id: 9, title: "🏆 C++ Programming", org: "NeoColab", desc: "Demonstrated proficiency in C++ programming.", file: "/certificates/neocolab-cpp.pdf", tags: [] },
-    { id: 10, title: "🏆 Java Programming", org: "NeoColab", desc: "Validated expertise in Java language and concepts.", file: "/certificates/neocolab-java.pdf", tags: [] }
-  ];
+  {
+    id: 1,
+    title: "Build Generative AI",
+    file: "/certificates/Build Generative AI Apps and Solutions with No-Code Too certificate.pdf",
+  },
+  {
+    id: 2,
+    title: "Computational Theory",
+    file: "/certificates/computational theory infosys certificate.pdf",
+  },
+  {
+    id: 3,
+    title: "Cloud Computing",
+    file: "/certificates/Cloud Computing (1).pdf",
+  },
+  {
+    id: 4,
+    title: "ChatGPT Prompt Engineering",
+    file: "/certificates/ChatGPT PROMPT certifiTE.pdf",
+  },
+  {
+    id: 5,
+    title: "Bits and Bytes",
+    file: "/certificates/THE-BITS-AND-BITES-GOOGLE.pdf",
+  },
+  {
+    id: 6,
+    title: "Packet Switching",
+    file: "/certificates/PACKET-SWITCHING-COURSERA.pdf",
+  },
+  {
+    id: 7,
+    title: "TCP/IP Networking",
+    file: "/certificates/TCP-IP-Coursera.pdf",
+  },
+  {
+    id: 8,
+    title: "Peer-to-Peer",
+    file: "/certificates/peer-to-peer-Coursera.pdf",
+  },
+  {
+    id: 9,
+    title: "Gen AI Nasscom",
+    file: "/certificates/certificate of gen ai nasscom.png",
+  }
+];
 
   const displayedCerts = showAll ? certificates : certificates.slice(0, 3);
 
