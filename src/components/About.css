@@ -1,0 +1,12 @@
+.about-content-minimal {
+  max-width: 700px;
+  text-align: left;
+}
+
+.about-content-minimal p {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-weight: 400;
+  margin: 0;
+}

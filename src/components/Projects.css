@@ -1,0 +1,75 @@
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.minimal-project-card {
+  padding: 1.5rem 2rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.minimal-project-card:hover {
+  border-color: var(--accent-cyan);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.project-title {
+  font-size: 1.35rem; /* Scaled */
+  color: var(--text-primary);
+  margin: 0;
+  font-weight: 500;
+}
+
+.project-link {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  transition: color 0.3s ease;
+}
+
+.project-link:hover {
+  color: var(--accent-cyan);
+}
+
+.project-desc {
+  font-size: 1rem; /* Scaled */
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+  font-family: var(--font-body);
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.tech-badge-minimal {
+  font-size: 0.7rem;
+  font-family: var(--font-mono); 
+  color: var(--accent-purple);
+  background: transparent;
+  border: 1px solid rgba(168, 85, 247, 0.2);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
+.minimal-project-card:hover .tech-badge-minimal {
+  border-color: rgba(168, 85, 247, 0.5);
+}
