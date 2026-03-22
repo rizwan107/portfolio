@@ -31,7 +31,7 @@ const Hero = () => {
             <FaFileAlt className="btn-icon-clone" /> View Resume
           </button>
 
-          <a href="/resume.pdf" download="Rizwan_CV.pdf" className="btn-clone btn-download-resume">
+         <a href="/certificates/rizwan cv3.pdf" download="Rizwan_CV.pdf" className="btn-clone btn-download-resume">
             <FaDownload className="btn-icon-clone" /> Download Resume
           </a>
 
