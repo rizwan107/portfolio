@@ -21,7 +21,7 @@ const Resume = () => {
               <li>✨ Rigorous DSA Training</li>
             </ul>
             <a
-  href="/certificates/rizwan cv3.pdf"
+  href="/certificates/rizwan-cv.pdf"
   download="Rizwan_CV.pdf"
   className="btn-primary flex-btn"
   style={{margin: '0 auto', display: 'inline-flex', padding: '1rem 2rem', fontSize: '1.1rem'}}
