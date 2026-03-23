@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="hero-image-wrapper filter-animate">
           <div className="hero-image-container">
             <img
-              src="/Screenshot 2023-12-04 233116.png"
+              src="/profile.png"
               alt="Rizwan Mohammed"
               className="hero-profile-pic"
             />
@@ -43,7 +43,7 @@ const Hero = () => {
             className="btn-clone btn-view-resume"
             onClick={() =>
               window.open(
-                "/certificates/rizwan cv3.pdf",
+                "/certificates/rizwan-cv.pdf",
                 "_blank"
               )
             }
@@ -53,7 +53,7 @@ const Hero = () => {
 
           {/* DOWNLOAD RESUME */}
           <a
-            href="/certificates/rizwan cv3.pdf"
+            href="/certificates/rizwan-cv.pdf"
             download="Rizwan_CV.pdf"
             className="btn-clone btn-download-resume"
           >
