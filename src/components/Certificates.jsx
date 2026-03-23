@@ -1,3 +1,6 @@
+import React from "react";
+import "./Certificates.css";
+
 const certificates = [
   {
     id: 1,
@@ -80,3 +83,39 @@ const certificates = [
     tags: []
   }
 ];
+
+const Certificates = () => {
+  return (
+    <section id="certificates" className="section container">
+      <h2 className="section-title">Certificates</h2>
+
+      <div className="certs-list-minimal">
+        {certificates.map((cert) => (
+          <div
+            key={cert.id}
+            className="cert-card-minimal"
+            onClick={() => window.open(cert.file, "_blank")}
+          >
+            <div className="cert-info-minimal">
+              <h3 className="cert-title-minimal">
+                {cert.title}
+              </h3>
+
+              <p className="cert-org-minimal">
+                {cert.org}
+              </p>
+
+              <p className="cert-desc-minimal">
+                {cert.desc}
+              </p>
+            </div>
+
+            <span className="cert-arrow">→</span>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default Certificates;
