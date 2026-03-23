@@ -1,7 +1,7 @@
 const certificates = [
   {
     id: 1,
-    title: "🏆 Build Generative AI",
+    title: "Build Generative AI",
     org: "Infosys",
     desc: "Completed training on building large language models and AI-powered applications.",
     file: "/certificates/build-generative-ai.pdf",
@@ -9,7 +9,7 @@ const certificates = [
   },
   {
     id: 2,
-    title: "🏆 Computational Theory",
+    title: "Computational Theory",
     org: "Infosys",
     desc: "Comprehensive course on algorithms, automata theory, and computational complexity.",
     file: "/certificates/computational-theory-infosys.pdf",
@@ -17,7 +17,7 @@ const certificates = [
   },
   {
     id: 3,
-    title: "🏆 Cloud Computing",
+    title: "Cloud Computing",
     org: "NPTEL",
     desc: "Covered fundamentals and architectures of cloud computing, virtualization, and distributed systems.",
     file: "/certificates/cloud-computing.pdf",
@@ -25,7 +25,7 @@ const certificates = [
   },
   {
     id: 4,
-    title: "🏆 ChatGPT Prompt Engineering",
+    title: "ChatGPT Prompt Engineering",
     org: "Infosys",
     desc: "Advanced techniques for interacting with large language models using prompt engineering.",
     file: "/certificates/chatgpt-prompt-engineering.pdf",
@@ -33,7 +33,7 @@ const certificates = [
   },
   {
     id: 5,
-    title: "🏆 The Bits and Bytes of Computer Networking",
+    title: "The Bits and Bytes of Computer Networking",
     org: "Google",
     desc: "Completed comprehensive networking concepts including protocols, routing, and network architecture.",
     file: "/certificates/bits-and-bytes-google.pdf",
@@ -41,7 +41,7 @@ const certificates = [
   },
   {
     id: 6,
-    title: "🏆 Packet Switching Networking",
+    title: "Packet Switching Networking",
     org: "Coursera",
     desc: "Deep dive into packet switching, routing mechanisms, and network traffic management.",
     file: "/certificates/packet-switching-coursera.pdf",
@@ -49,7 +49,7 @@ const certificates = [
   },
   {
     id: 7,
-    title: "🏆 TCP/IP Networking",
+    title: "TCP/IP Networking",
     org: "Coursera",
     desc: "Advanced exploration of the TCP/IP suite and modern networking protocols.",
     file: "/certificates/tcp-ip-coursera.pdf",
@@ -57,7 +57,7 @@ const certificates = [
   },
   {
     id: 8,
-    title: "🏆 Peer-to-Peer Protocols",
+    title: "Peer-to-Peer Protocols",
     org: "Coursera",
     desc: "Studied decentralized communication models and peer-to-peer network architectures.",
     file: "/certificates/peer-to-peer-coursera.pdf",
@@ -65,7 +65,7 @@ const certificates = [
   },
   {
     id: 9,
-    title: "🏆 Gen AI Certification",
+    title: "Gen AI Certification",
     org: "NASSCOM",
     desc: "Certification in Generative AI fundamentals and industry applications.",
     file: "/certificates/gen-ai-nasscom.png",
@@ -73,7 +73,7 @@ const certificates = [
   },
   {
     id: 10,
-    title: "🏆 C Programming Certification",
+    title: "C Programming Certification",
     org: "Certification",
     desc: "Completed foundational training in C programming and problem-solving.",
     file: "/certificates/c-certifi.pdf",
