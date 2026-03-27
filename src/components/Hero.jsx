@@ -25,9 +25,13 @@ const Hero = () => {
           </span>
         </div>
 
+        {/* NAME + ROLE */}
         <h1 className="hero-name-split slide-up-animate">
           Rizwan Mohammed
-          Data Scientist
+
+          <span className="hero-role">
+            Data Scientist
+          </span>
         </h1>
         
         <h2
