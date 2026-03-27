@@ -39,7 +39,7 @@ const Resume = () => {
                 </div>
                 <div className="achievement-text">
                   <h4>LeetCode Problem Solver</h4>
-                  <p>Solved 70+ problems on LeetCode.</p>
+                  <p>Solved 150+ problems on LeetCode.</p>
                 </div>
               </div>
               
@@ -49,7 +49,7 @@ const Resume = () => {
                 </div>
                 <div className="achievement-text">
                   <h4>DSA Master</h4>
-                  <p>Solved 150+ DSA problems.</p>
+                  <p>Solved 250+ DSA problems.</p>
                 </div>
               </div>
               
