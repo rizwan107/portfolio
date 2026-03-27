@@ -27,6 +27,7 @@ const Hero = () => {
 
         <h1 className="hero-name-split slide-up-animate">
           Rizwan Mohammed
+          Data Scientist
         </h1>
         
         <h2
