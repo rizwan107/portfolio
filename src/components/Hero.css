@@ -97,6 +97,14 @@
   line-height: 1.1;
   color: #ffffff;
 }
+.hero-role {
+  display: block;
+  font-size: 1.4rem;     /* Smaller than name */
+  font-weight: 500;
+  margin-top: 0.4rem;
+  color: #9ca3af;        /* Same tone as subtitle */
+  letter-spacing: 0.02em;
+}
 
 .hero-subtitle {
   font-family: var(--font-heading);
